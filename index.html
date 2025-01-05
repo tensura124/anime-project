@@ -28,7 +28,7 @@
 
     <script>
         // استدعاء API من Vercel لعرض الأنمي
-        fetch('https://api.consumet.org/anime')  <!-- الرابط الذي رفعته على Vercel -->
+        fetch('https://anime-two-rho.vercel.app/api-endpoint') // أو رابط الـ API المرفوع')  <!-- الرابط الذي رفعته على Vercel -->
             .then(response => response.json())
             .then(data => {
                 const animeList = document.getElementById('anime-list');
